@@ -1,3 +1,5 @@
+#Program to check whether a number is prime or not.
+
 num=int(input("enter a number: "))
 if num>0:
 
@@ -7,5 +9,6 @@ if num>0:
                        break
     else:
         print(num,"is prime number")
-                   
+else:
+    print(num,"is not a prime number!!!")                  
     
